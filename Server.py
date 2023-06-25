@@ -68,7 +68,7 @@ while True:
                     Account = Infor[3] #欲创建的账户名
                     AccountPwd = Infor[4] #欲创建的账户密码
                     if Admin == AdminAccount and AdminPwd == AdminAccountPwd:
-                        cmd = "net user " + Account + " " + AccountPwd + " //add"
+                        cmd = "net user " + Account + " " + AccountPwd + " /add"
                         print(cmd)
                         os.system(cmd)
                         
