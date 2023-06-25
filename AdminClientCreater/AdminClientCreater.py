@@ -22,7 +22,7 @@ if abc == "y" or abc == "Y":
     b = b + "Admin = '" + Admin + "'"+ "\n"
     b = b + "AdminPwd = '" + AdminPwd + "'"+ "\n"
     b = b + d
-    with open("output.py","a") as f:
+    with open("output.py","a",encoding="utf-8") as f:
         f.write(b)
         f.close()
 
