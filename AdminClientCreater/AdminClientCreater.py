@@ -1,5 +1,5 @@
 #AdminClientCreater
-print("欢迎来到 AdminClientCreater ，此向导可以帮助您完成创建管理员专用客户端 /n")
+print("欢迎来到 AdminClientCreater ，此向导可以帮助您完成创建管理员专用客户端 \n")
 print("先从第一步开始")
 print("请输入你要管理的服务器地址，可以是域名或IP")
 host = input("请输入您的管理地址:")
