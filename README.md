@@ -12,5 +12,5 @@
 3. 以任意用户身份运行cmd.exe，定位到程序目录，输入 "python Client.py "
 
 ## 特别注意！！！
-# **在安装Python时，请务必将Python 添加到系统环境变量中**   
+**在安装Python时，请务必将Python 添加到系统环境变量中**   
 Python 需要 Python 3.x 或更新版本  
