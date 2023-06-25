@@ -1,0 +1,16 @@
+
+
+Client = socket.socket()
+SP = "|||"
+
+
+
+Account = input("请输入您要开户的账户名:")
+AccountPwd = input("请输入您要开户的密码:")
+msg = "CreateNewAccount" + SP + Admin + SP + AdminPwd + SP + Account + SP + AccountPwd
+    
+    
+Client.connect((host,port))
+Client.send(msg.encode('gbk'))
+Client.close()
+    

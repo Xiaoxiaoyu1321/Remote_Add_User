@@ -71,6 +71,10 @@ while True:
                         cmd = "net user " + Account + " " + AccountPwd + " //add"
                         print(cmd)
                         os.system(cmd)
+                        
+                        
+                        
+                        
         except Exception as bnm:
             print("[Error]无法尝试分割文本,错误信息:" , bnm)
                 
